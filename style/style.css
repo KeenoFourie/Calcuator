@@ -1,0 +1,65 @@
+/* Icon import link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+/* Everything */
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    width: 25rem;
+    margin: auto;
+}
+
+/* Placement of buttons and sizing */
+
+#output {
+    border-color: rgb(193, 193, 193);
+    height: 2rem;
+    margin-top: 1rem;
+    width: 20.5rem;
+    padding: 1.5rem;
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+}
+
+.button {
+    width: 5rem;
+    padding: 5px;
+    margin: 0.5rem;
+}
+
+#clear {
+    width: 11rem;
+    padding: 5px;
+}
+
+#backspace {
+    width: 5rem;
+    padding: 0.3rem 1px 0.5rem;
+}
+
+.operator {
+    width: 5rem;
+    padding: 5px;
+    margin: 0.5rem;
+}
+
+button {
+    height: 5rem;
+    background-color: transparent;
+    color: white;
+}
+
+button:hover {
+    font-weight: bolder;
+    background-color: rgb(30, 30, 30);
+}
+
+#equal_sign {
+    width: 11rem;
+    margin: 0.5rem;
+}
