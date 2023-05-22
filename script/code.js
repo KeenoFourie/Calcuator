@@ -5,7 +5,7 @@ let checkerArray = [];
 
 // Output = displays what is clicked and doesn't repeat dot
 function display(value){
-    if(value == '.' && checkerArray.includes('.')){      //if value dot is included the let dot not appear
+    if(value == '.' && checkerArray.includes('.')){      //if value dot is included then let dot not appear
         return
     } else if(value == '+' || value == '-' || value == '*' || value == '/'){     //else let it appear once more after operators are clicked/included
     } else {
